@@ -1,0 +1,4 @@
+#!ipxe
+
+dhcp
+chain tftp://freenas.5g.lab/boot.txt
