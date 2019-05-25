@@ -1,4 +1,5 @@
 #!ipxe
 
 dhcp
-chain tftp://freenas.5g.lab/boot.txt
+#chain tftp://freenas.5g.lab/boot.txt
+chain tftp://freenas.boot.pxe/boot.txt

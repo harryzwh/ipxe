@@ -6,3 +6,9 @@ Quick start guide:
    make
 
 For any more detailed instructions, see http://ipxe.org
+
+package
+sudo apt install liblzma-dev
+
+make bin/undionly.kpxe EMBED=chain.ipxe 
+make bin-x86_64-efi/snponly.efi EMBED=chain.ipxe
